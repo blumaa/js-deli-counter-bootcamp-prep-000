@@ -2,6 +2,7 @@ var katzDeliLine = []
 
 function takeANumber(katzDeliLine){
   var yourNumber = katzDeliLine.length + 1
+  katzDeliLine + 1
   return(`You are number ${yourNumber}.`)
 }
 
