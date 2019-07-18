@@ -1,8 +1,8 @@
 var katzDeliLine = []
 
-function takeANumber(katzDeliLine, newNumber){
-  katzDeliLine.push(newNumber)
-  return(`You are number ${katzDeliLine.length}.`)
+function takeANumber(katzDeliLine){
+  var yourNumber = katzDeliLine.length
+  return(`You are number ${yourNumber}.`)
 }
 
 function nowServing(katzDeliLine){
